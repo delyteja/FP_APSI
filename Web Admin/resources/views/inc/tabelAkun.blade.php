@@ -26,8 +26,8 @@
     <tr>
       <th scope="row">2</th>
       <td>
-        <a href="#">approve</a>
-        <a href="#">reject</a>
+        <a onclick="berhasil()" href="#">approve</a>
+        <a onclick="berhasil()" href="#">reject</a>
       </td>
       <td>041</td>
       <td>Farza Nurifan</td>
@@ -38,8 +38,8 @@
     <tr>
       <th scope="row">3</th>
       <td>
-        <a href="#">approve</a>
-        <a href="#">reject</a>
+        <a onclick="berhasil()" href="#">approve</a>
+        <a onclick="berhasil()" href="#">reject</a>
       </td>
       <td>041</td>
       <td>Farza Nurifan</td>

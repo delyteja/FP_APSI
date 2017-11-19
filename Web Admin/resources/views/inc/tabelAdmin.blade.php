@@ -26,8 +26,8 @@
     <tr>
       <th scope="row">2</th>
       <td>
-        <a href="#">edit</a>
-        <a href="#">delete</a>
+        <a href="/edit">edit</a>
+        <a onclick="deletebox()" href="#">delete</a>
       </td>
       <td>041</td>
       <td>Farza Nurifan</td>
@@ -38,8 +38,8 @@
     <tr>
       <th scope="row">3</th>
       <td>
-        <a href="#">edit</a>
-        <a href="#">delete</a>
+        <a href="/edit">edit</a>
+        <a onclick="deletebox()" href="#">delete</a>
       </td>
       <td>041</td>
       <td>Farza Nurifan</td>

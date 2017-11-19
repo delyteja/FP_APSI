@@ -2,14 +2,14 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="/">Belajar NET</a>
+      <a class="navbar-brand active" href="/">Belajar NET</a>
     </div>
     @section('umum')
     <ul class="nav navbar-nav">
-      <li class="active"><a href="/home">Home</a></li>
-      <li><a href="/manage">Manage Data</a></li>
-      <li><a href="/statistik">Statistik</a></li>
-      <li><a href="/verifikasi">Verifikasi Akun</a></li>
+      <li class="{{Request::is('home') ? 'active' : ''}}"><a href="/home">Home</a></li>
+      <li class="{{Request::is('manage') ? 'active' : ''}}"><a href="/manage">Manage Data</a></li>
+      <li class="{{Request::is('statistik') ? 'active' : ''}}"><a href="/statistik">Statistik</a></li>
+      <li class="{{Request::is('verifikasi') ? 'active' : ''}}"><a href="/verifikasi">Verifikasi Akun</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-user"></span> Nama Admin</a></li>
